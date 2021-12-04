@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,48 +9,135 @@ body {
     line-height: 1.7em;
 }
 
-a{
+a {
     text-decoration: none;
     color: #333;
 }
 
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+
 /* Utility classes */
-.container{
+.container {
     margin: auto;
     max-width: 1100px;
     padding: 0 20px;
 }
 
+.text-primary {
+    color: #f7c08a;
+}
+  
+.lead {
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #f7c08a;
+    color: #333;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+  
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
+
 /* Navbar */
-#navbar{
+#navbar {
     background: black;
     color: #fff;
     overflow: auto;
 }
 
-
-.container h1{
+#navbar h1 {
     float: left;
     padding-top: 20px;
 }
 
-.container ul{
+#navbar ul {
     list-style: none;
     float: right;
 }
 
-.container ul li{
+#navbar ul li {
     float: left;
 }
 
-.container ul li a{
+#navbar ul li a {
     color: #fff;
     display: block;
     padding: 20px;
 }
 
-.container ul li a:hover, 
-.container ul li a.active {
+#navbar ul li a:hover, 
+#navbar ul li a.active {
   background: #444;
   color: #f7c08a;
+}
+
+/* Showcase */
+#showcase {
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.7em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info{
+    height: 400px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg');
+    min-height: 100%;
+}
+
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p{
+    padding-bottom: 30px;
 }
