@@ -18,6 +18,10 @@ h1, h2, h3{
     padding-bottom: 20px;
 }
 
+.clr{
+    clear: both;
+}
+
 /* Utility classes */
 .container {
     margin: auto;
@@ -140,4 +144,24 @@ h1, h2, h3{
 
 #home-info .info-content p{
     padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px;
+}
+
+.box i {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
